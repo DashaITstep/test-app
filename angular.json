@@ -38,6 +38,11 @@
               "node_modules/primeicons/primeicons.css",
               "node_modules/primeng/resources/primeng.min.css",
               {
+                "input": "src/theme-custom.scss",
+                "bundleName": "custom",
+                "inject": false
+              },
+              {
                 "input": "src/theme-md-light-indigo.scss",
                 "bundleName": "md-light-indigo",
                 "inject": false
