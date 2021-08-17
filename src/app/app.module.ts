@@ -8,6 +8,8 @@ import { ButtonModule } from 'primeng/button';
 import { ThemeService } from "./services/theme.service";
 import { CardModule } from 'primeng/card';
 import { DividerModule } from 'primeng/divider';
+import { AccordionModule } from 'primeng/accordion';
+import { TagModule } from 'primeng/tag';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { DividerModule } from 'primeng/divider';
     AppRoutingModule,
     ButtonModule,
     CardModule,
-    DividerModule
+    DividerModule,
+    AccordionModule,
+    TagModule
   ],
   providers: [ThemeService],
   bootstrap: [AppComponent]
